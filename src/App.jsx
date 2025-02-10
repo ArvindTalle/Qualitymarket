@@ -153,7 +153,7 @@ function App() {
         {/* Main Content Area */}
         <div className="flex-grow-1 p-4">
           <Routes>
-            <Route path="/" element={<Home />} />
+            
             <Route path="/home" element={<Home />} />
             <Route path="/vegitems" element={<VegItems />} />
             <Route path="/nonvegitems" element={<NonvegItems />} />
