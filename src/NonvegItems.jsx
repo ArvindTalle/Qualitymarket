@@ -32,7 +32,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { AddToCart } from "./Store";
 import { FaShoppingCart, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./NonvegItems.css"; // Importing custom styles
+import "./Nonvegitems.css"; // Importing custom styles
 
 function NonvegItems() {
     let nonVegItems = useSelector(state => state.products.nonVeg);
