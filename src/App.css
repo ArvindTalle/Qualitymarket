@@ -1,0 +1,184 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color:lightyellow;
+    height: 100vh;
+    overflow-x: hidden;
+    /* background-image:url("bg.png"); */
+    background-size: cover;
+    background-color:white;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* App Container */
+  .app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1b19;
+    padding: 15px 30px;
+    color: rgb(223, 15, 15);
+    width: 100%;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 40%;
+  }
+  
+  .cart-link {
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 68, 68);
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .navbar a {
+    color: rgb(8, 4, 4);
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    background-color: #82d6e4;
+    border-radius: 5px;
+  }
+  
+  /* Auth Section */
+  .auth-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logout-btn, .signin-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .signin-btn {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .logout-btn:hover, .signin-btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Main Content Area */
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+
+
+
+
+
+
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 15px;
+  }
+  
+  .brand {
+    color: red;
+    font-family: cursive;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .footer-links a {
+    color: #ddd;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+
+
+
+
+
+  

@@ -1,0 +1,46 @@
+/* Home Page Container */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.png);
+    height: 100vh;
+}
+
+/* Home Card Styling */
+.home-card {
+    max-width: 600px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.home-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Animated Welcome Text */
+.welcome-text {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Icon Styling */
+.icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #0d6efd;
+    transition: color 0.3s ease-in-out;
+}
+
+.icon:hover {
+    color: #198754;
+}
