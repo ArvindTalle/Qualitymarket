@@ -169,7 +169,7 @@ function App() {
 
         {/* Footer Section */}
         <footer className="bg-secondary text-white text-center py-3 mt-auto">
-          <p>&copy; {new Date().getFullYear()} Quality Market. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Quality Market. All rights reserved @Arvind.</p>
           <div>
             <Link className="text-white mx-2" to="/aboutUs">About Us</Link>
             <Link className="text-white mx-2" to="/contactUs">Contact</Link>
