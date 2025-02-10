@@ -51,10 +51,10 @@ function Home() {
         <h2 className="text-success welcome-text">Your Shopping Hub - Quality Market</h2>
         <p className="text-muted">Find the best products at the best prices!</p>
         
-        {/* Shop Now Button */}
+        {/* Shop Now Button
         <a href="/vegitems" className="btn btn-primary btn-lg mt-3">
           <FaShoppingCart className="me-2" /> Start Shopping
-        </a>
+        </a> */}
       </div>
     </section>
   );
