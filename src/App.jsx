@@ -121,7 +121,7 @@ function App() {
         {/* Navigation Bar */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-secondary">
           <div className="container">
-            <Link className="navbar-brand" to="/"><i className="fa-solid fa-house"></i></Link>
+            <Link className="navbar-brand" to="/home"><i className="fa-solid fa-house"></i></Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -153,8 +153,7 @@ function App() {
         {/* Main Content Area */}
         <div className="flex-grow-1 p-4">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/vegitems" element={<VegItems />} />
             <Route path="/nonvegitems" element={<NonvegItems />} />
             <Route path="/milk" element={<Milk />} />
