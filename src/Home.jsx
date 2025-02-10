@@ -16,7 +16,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap styles
 import { FaHome, FaShoppingCart } from "react-icons/fa"; // Importing FontAwesome icons
-import "./home.css"; // Importing custom styles
+import "./Home.css"; // Importing custom styles
 
 function Home() {
   return (
